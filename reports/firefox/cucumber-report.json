@@ -1,0 +1,193 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;crear-cuenta",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Crear Cuenta",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2482827957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "el usuario ingresa a la página de Mercado Prueba",
+            "match": {
+              "location": "tests/steps/crear.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1289093832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "da click en crear cuenta",
+            "match": {
+              "location": "tests/steps/crear.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1164448459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "ingresa los datos de cliente",
+            "match": {
+              "location": "tests/steps/crear.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 499122541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "da click en el boton crear cuenta",
+            "match": {
+              "location": "tests/steps/crear.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113395375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "el usuario visualiza un mensaje de creado con exito",
+            "match": {
+              "location": "tests/steps/crear.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22050208
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 578809833
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-exitoso",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login exitoso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1414404167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "el usuario ingresa a la página de Mercado Prueba",
+            "match": {
+              "location": "tests/steps/crear.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1107491958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "ingresar usuario y contraseña",
+            "match": {
+              "location": "tests/steps/login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71036582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "da click en ingresar",
+            "match": {
+              "location": "tests/steps/login.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "el usuario visualiza el mensaje de bienvenida",
+            "match": {
+              "location": "tests/steps/login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15615250
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 394848415
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@login",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "tests/features/login.feature"
+  }
+]
