@@ -51,6 +51,18 @@ Proyecto3/
 
 ---
 
+## 📚 Guías de uso rápido
+
+| Necesitas | Documento | Tiempo |
+|-----------|-----------|--------|
+| **Empezar ya** | [QUICK-START.md](QUICK-START.md) | 2 min |
+| **Flujo paso a paso** | [WORKFLOW.md](WORKFLOW.md) | 10 min |
+| **Ejemplo real** | [EXAMPLE.md](EXAMPLE.md) | 15 min |
+| **Checklist interactivo** | [CHECKLIST.md](CHECKLIST.md) | Mientras trabajas |
+| **Referencia completa** | Este README | Según necesites |
+
+---
+
 ## Tabla de contenidos
 
 1. [Requisitos previos](#1-requisitos-previos)
