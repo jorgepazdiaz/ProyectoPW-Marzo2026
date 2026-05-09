@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-09T18:28:15.755Z",
+  "url": "https://physician-oxygen-literary-classroom.trycloudflare.com/",
+  "title": "Ingresar | MercadoPrueba",
+  "buttons": [
+    "\n              \n              \n                \n                \n              \n            ",
+    "\n          Ingresar\n        "
+  ],
+  "labels": [
+    "Correo electrónico o teléfono",
+    "Contraseña"
+  ],
+  "inputs": [
+    {
+      "type": "text",
+      "placeholder": "ejemplo@correo.com",
+      "name": "email",
+      "id": "email",
+      "selector": "#email"
+    },
+    {
+      "type": "password",
+      "placeholder": "Tu contraseña",
+      "name": "password",
+      "id": "password",
+      "selector": "#password"
+    }
+  ],
+  "headings": [
+    "Ingresá a tu cuenta"
+  ],
+  "links": [
+    "\n        MercadoPrueba\n      ",
+    "Crear cuenta",
+    "Ayuda",
+    "¿Olvidaste tu contraseña?",
+    "\n        Crear cuenta\n      ",
+    "Conocé MercadoPrueba Business",
+    "Privacidad",
+    "Términos y condiciones",
+    "Ayuda"
+  ]
+}
