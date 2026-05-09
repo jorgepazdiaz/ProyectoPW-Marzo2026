@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "playwright-inspector": {
+            "command": "node",
+            "args": [
+                ".mcp/playwright-mcp-server.js"
+            ],
+            "env": {
+                "PLAYWRIGHT_URL": "https://physician-oxygen-literary-classroom.trycloudflare.com",
+                "BROWSER_TYPE": "chromium"
+            }
+        }
+    },
+    "description": "MCP Server para inspeccionar y actualizar tests basado en cambios en la web"
+}
